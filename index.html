@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="eNVision — Modern optical store offering high-quality frames, precision lenses, and eyewear classics.">
+  <title>eNVision Optical Store — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="headerMount"></div>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-bg-shape"></div>
+      <div class="hero-content container">
+        <div class="hero-left">
+          <p class="hero-eyebrow">New Season 2026</p>
+          <h1 class="hero-title">
+            CRAFTED<br>
+            FOR<br>
+            <span class="line-white">CLARITY</span>
+          </h1>
+          <p class="hero-desc">
+
+          </p>
+          <div class="hero-actions">
+            <a href="products.html" class="btn-primary">Explore Collection</a>
+            <a href="about.html" class="btn-outline">Our Story</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-img-wrap">
+            <div class="hero-carousel" id="heroCarousel">
+              <div class="hero-carousel-track" id="heroCarouselTrack">
+                <div class="hero-carousel-slide"><img src="assets/model1.png" alt="eNVision eyewear model" onerror="this.style.display='none'"></div>
+                <div class="hero-carousel-slide"><img src="assets/model2.png" alt="eNVision eyewear model" onerror="this.style.display='none'"></div>
+                <div class="hero-carousel-slide"><img src="assets/model3.png" alt="eNVision eyewear model" onerror="this.style.display='none'"></div>
+                <div class="hero-carousel-slide"><img src="assets/model4.png" alt="eNVision eyewear model" onerror="this.style.display='none'"></div>
+              </div>
+              <div class="hero-carousel-dots" id="heroCarouselDots"></div>
+            </div>
+            <div class="hero-badge">Precision<br>Crafted</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-scroll">Scroll</div>
+    </section>
+
+    <!-- ===== SCROLLING STRIP ===== -->
+    <div class="featured-strip">
+      <div class="strip-track" id="stripTrack">
+        <span class="strip-item">Premium Frames</span>
+        <span class="strip-item">Expert Opticians</span>
+        <span class="strip-item">Precision Lenses</span>
+        <span class="strip-item">Modern Design</span>
+        <span class="strip-item">Global Collection</span>
+        <span class="strip-item">Custom Orders</span>
+      </div>
+    </div>
+
+    <!-- ===== NEW ARRIVALS — INFINITE CAROUSEL ===== -->
+    <section class="new-arrivals">
+      <div class="container">
+        <div class="arrivals-header fade-in">
+          <div>
+            <p class="section-label">Just Arrived</p>
+            <h2 class="section-title">New Arrivals</h2>
+          </div>
+          <a href="products.html" class="btn-outline">View All Products</a>
+        </div>
+
+        <!-- Carousel wrapper -->
+        <div class="carousel-outer">
+          <button class="carousel-arrow carousel-prev" id="carouselPrev" aria-label="Previous">&#8592;</button>
+
+          <div class="carousel-viewport" id="carouselViewport">
+            <div class="carousel-track" id="carouselTrack">
+
+              <div class="arrival-card">
+                <div class="arrival-card-img">
+                  <div class="arrival-overlay"></div>
+                  <img src="assets/azure-flex.png" alt="Azure Flex">
+                </div>
+                <span class="arrival-card-badge">New</span>
+                <div class="arrival-card-body">
+                  <h3 class="arrival-card-name">Azure Flex</h3>
+                  <p class="arrival-card-desc">Lightweight rectangular frame with a modern matte finish for everyday comfort.</p>
+                  <div class="arrival-card-footer">
+                    <span class="arrival-price">IDR 1.999.000</span>
+                    <a href="order.html" class="btn-primary" style="padding:0.55rem 1rem;font-size:0.68rem;">Order Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="arrival-card">
+                <div class="arrival-card-img">
+                  <div class="arrival-overlay"></div>
+                  <img src="assets/mocha-air.png" alt="Mocha Air">
+                </div>
+                <span class="arrival-card-badge">New</span>
+                <div class="arrival-card-body">
+                  <h3 class="arrival-card-name">Mocha Air</h3>
+                  <p class="arrival-card-desc">Elegant semi-transparent frame designed for a refined and minimalist look.</p>
+                  <div class="arrival-card-footer">
+                    <span class="arrival-price">IDR 2.199.000</span>
+                    <a href="order.html" class="btn-primary" style="padding:0.55rem 1rem;font-size:0.68rem;">Order Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="arrival-card">
+                <div class="arrival-card-img">
+                  <div class="arrival-overlay"></div>
+                  <img src="assets/noir-edge.png" alt="Noir Edge">
+                </div>
+                <span class="arrival-card-badge">New</span>
+                <div class="arrival-card-body">
+                  <h3 class="arrival-card-name">Noir Edge</h3>
+                  <p class="arrival-card-desc">Classic black eyewear with bold lines and timeless sophistication, designed to elevate your style.</p>
+                  <div class="arrival-card-footer">
+                    <span class="arrival-price">IDR 2.099.000</span>
+                    <a href="order.html" class="btn-primary" style="padding:0.55rem 1rem;font-size:0.68rem;">Order Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="arrival-card">
+                <div class="arrival-card-img">
+                  <div class="arrival-overlay"></div>
+                  <img src="assets/vanguard-black.png" alt="Vanguard Black">
+                </div>
+                <span class="arrival-card-badge">New</span>
+                <div class="arrival-card-body">
+                  <h3 class="arrival-card-name">Vanguard Black</h3>
+                  <p class="arrival-card-desc">Contemporary frame crafted for style, clarity, and daily versatility.</p>
+                  <div class="arrival-card-footer">
+                    <span class="arrival-price">IDR 1.999.000</span>
+                    <a href="order.html" class="btn-primary" style="padding:0.55rem 1rem;font-size:0.68rem;">Order Now</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="arrival-card">
+                <div class="arrival-card-img">
+                  <div class="arrival-overlay"></div>
+                  <img src="assets/eclipse-round.png" alt="Eclipse Round">
+                </div>
+                <span class="arrival-card-badge">New</span>
+                <div class="arrival-card-body">
+                  <h3 class="arrival-card-name">Eclipse Round</h3>
+                  <p class="arrival-card-desc">Sleek rounded frame inspired by vintage optical fashion, bringing a touch of timeless elegance.</p>
+                  <div class="arrival-card-footer">
+                    <span class="arrival-price">IDR 2.449.000</span>
+                    <a href="order.html" class="btn-primary" style="padding:0.55rem 1rem;font-size:0.68rem;">Order Now</a>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+          <button class="carousel-arrow carousel-next" id="carouselNext" aria-label="Next">&#8594;</button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== PHILOSOPHY ===== -->
+    <section class="philosophy">
+      <div class="container">
+        <div class="philosophy-inner">
+          <div class="philosophy-text fade-in">
+            <p class="section-label">Our Philosophy</p>
+            <h2 class="section-title">Vision Beyond<br>the Frame</h2>
+            <blockquote class="philosophy-quote">
+              "Eyewear is not just a tool — it is a statement of who you are."
+            </blockquote>
+            <p class="philosophy-body">
+              At eNVision, we believe that exceptional eyewear begins with exceptional intent.
+              Every material is chosen with precision, every frame shaped with care,
+              and every customer served with the expertise of true optical artisans.
+            </p>
+          </div>
+          <div class="philosophy-stats fade-in">
+            <div class="stat-card">
+              <div class="stat-number">8+</div>
+              <div class="stat-label">Years of Craft</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">50K</div>
+              <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">120+</div>
+              <div class="stat-label">Frame Models</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-number">30+</div>
+              <div class="stat-label">Countries Served</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div id="footerMount"></div>
+
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
